@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <filter id="Icon_awesome-file" x="0.5" y="1.5" width="31" height="35" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-color="#055afc" flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-file">
+      <rect width="32" height="32"/>
+    </clipPath>
+  </defs>
+  <g id="file" clip-path="url(#clip-file)">
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-file)">
+      <path id="Icon_awesome-file-2" data-name="Icon awesome-file" d="M9.333,5.313V0H1A.968.968,0,0,0,0,.938V19.063A.968.968,0,0,0,1,20H15a.968.968,0,0,0,1-.937V6.25H10.333A.973.973,0,0,1,9.333,5.313ZM16,4.762V5H10.667V0h.254a1.034,1.034,0,0,1,.708.273L15.708,4.1A.906.906,0,0,1,16,4.762Z" transform="translate(8 6)" fill="#055afc"/>
+    </g>
+  </g>
+</svg>

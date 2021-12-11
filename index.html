@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>KovylyaevDigital CDN</title>
+  <link rel="stylesheet" href="resources/css/bootstrap.css">
+  <link rel="stylesheet" href="resources/css/web.css">
+  <link rel='stylesheet' href='resources/css/style.css'>
+
+</head>
+<body>
+  <div class="container">
+    <nav class="py-2">
+        <div class="d-flex flex-wrap">
+            <ul class="nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://ikovylyaev.com" style="padding-left: 0px!important">design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="https://blog.ikovylyaev.com">blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://video.ikovylyaev.com">video</a>
+                </li>
+            </ul>
+            <ul class="nav nav-2">
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:hi@ikovylyaev.com">hi@ikovylyaev.com</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://behance.net/ikovylyaev">беханс</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://vk.com/ikovylyaev">вк</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://instagram.com/ikovylyaev">инста</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.youtube.com/channel/UCf9GOVc0qKKPB-Ee3LfH_uw" style='padding-right: 0;'>ютьюб</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="py-3">
+        <div class="row">
+            <a href="https://cdn.ikovylyaev.com" class="col-md-6 col-12">
+                <img src="cdn.svg" class="logotype" alt="ikovylyaev-logo">
+            </a>
+        </div>
+    </header>
+
+  <div id="jstree"></div>
+  </div>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src="resources/js/jstree.js"></script>
+<script src="resources/js/bootstrap.min.js"></script>
+<script>
+  $('#jstree').jstree({
+		'core' : {
+			'data' : [
+				{
+					"text" : "Университет",
+          "icon" : "jstree-folder",
+					"state" : { "opened" : false },
+					"children" : [
+						{
+							"text" : "Семестр 2",
+              "icon" : "jstree-folder",
+							"state" : { "selected" : false },
+              "children" : [
+                {
+                  "text" : "История",
+                  "icon" : "jstree-folder",
+                  "state" : { "selected" : false },
+                  "children" : [
+                    {
+                      "text" : "caravella.pdf",
+                      "state" : { "selected" : false },
+                      "icon" : "jstree-file",
+                      "a_attr" : { "href" : "files/university/sem2/history/caravella.pdf" } 
+                    },
+                    {
+                      "text" : "caravella.pptx",
+                      "state" : { "selected" : false },
+                      "icon" : "jstree-file",
+                      "a_attr" : { "href" : "files/university/sem2/history/caravella.pptx" } 
+                    },
+                    {
+                      "text" : "kapitsa.docx",
+                      "state" : { "selected" : false },
+                      "icon" : "jstree-file",
+                      "a_attr" : { "href" : "files/university/sem2/history/kapitsa.docx" } 
+                    },
+                    {
+                      "text" : "referat.docx",
+                      "state" : { "selected" : false },
+                      "icon" : "jstree-file",
+                      "a_attr" : { "href" : "files/university/sem2/history/referat.docx" } 
+                    },
+                  ]
+                },
+                {
+                  "text" : "Метрология",
+                  "icon" : "jstree-folder",
+                  "state" : { "selected" : false },
+                  "children" : [
+                    {
+                      "text" : "lab1.pdf",
+                      "state" : { "selected" : false },
+                      "icon" : "jstree-file",
+                      "a_attr" : { "href" : "files/university/sem2/metrology/lab1.pdf" } 
+                    },
+                    {
+                      "text" : "lab1.pptx",
+                      "state" : { "selected" : false },
+                      "icon" : "jstree-file",
+                      "a_attr" : { "href" : "files/university/sem2/metrology/lab1.pptx" } 
+                    }
+                  ]
+                }
+              ]
+						},
+            {
+							"text" : "Семестр 3",
+              "icon" : "jstree-folder",
+							"state" : { "selected" : false },
+              "children" : [
+                {
+                  "text" : "ЭиУР",
+                  "icon" : "jstree-folder",
+                  "state" : { "selected" : false },
+                  "children" : [
+                    {
+                      "text" : "debates.pdf",
+                      "state" : { "selected" : false },
+                      "icon" : "jstree-file",
+                      "a_attr" : { "href" : "files/university/sem3/EiUR/debates.pdf" } 
+                    },
+                    {
+                      "text" : "debates.pptx",
+                      "state" : { "selected" : false },
+                      "icon" : "jstree-file",
+                      "a_attr" : { "href" : "files/university/sem3/EiUR/debates.pptx" } 
+                    },
+                    {
+                      "text" : "referat.docx",
+                      "state" : { "selected" : false },
+                      "icon" : "jstree-file",
+                      "a_attr" : { "href" : "files/university/sem3/EiUR/referat.docx" } 
+                    },
+                    {
+                      "text" : "referat.pdf",
+                      "state" : { "selected" : false },
+                      "icon" : "jstree-file",
+                      "a_attr" : { "href" : "files/university/sem3/EiUR/referat.pdf" } 
+                    },
+                    {
+                      "text" : "referat.pptx",
+                      "state" : { "selected" : false },
+                      "icon" : "jstree-file",
+                      "a_attr" : { "href" : "files/university/sem3/EiUR/referat.pptx" } 
+                    }
+                  ]
+                },
+                {
+                  "text" : "Термодинамика",
+                  "icon" : "jstree-folder",
+                  "state" : { "selected" : false },
+                  "children" : [
+                    {
+                      "text" : "lab1.pdf",
+                      "state" : { "selected" : false },
+                      "icon" : "jstree-file",
+                      "a_attr" : { "href" : "files/university/sem3/thermodynamics/lab1.pdf" } 
+                    },
+                    {
+                      "text" : "lab1.pptx",
+                      "state" : { "selected" : false },
+                      "icon" : "jstree-file",
+                      "a_attr" : { "href" : "files/university/sem3/thermodynamics/lab1.pptx" } 
+                    }
+                  ]
+                }
+              ]
+						},
+					]
+				},
+        {
+					"text" : "digital",
+					"state" : { "opened" : false },
+          "icon" : "jstree-folder",
+					"children" : [
+						{
+							"text" : "logo",
+              "icon" : "jstree-folder",
+							"state" : { "selected" : false },
+              "children" : [
+                {
+                  "text" : "digital_dark.png",
+                  "state" : { "selected" : false },
+                  "icon" : "jstree-file",
+                  "a_attr" : { "href" : "files/digital/logo/digital_dark.png" } 
+                },
+                {
+                  "text" : "digital_dark.svg",
+                  "state" : { "selected" : false },
+                  "icon" : "jstree-file",
+                  "a_attr" : { "href" : "files/digital/logo/digital_dark.svg" } 
+                },
+                {
+                  "text" : "digital_light.png",
+                  "state" : { "selected" : false },
+                  "icon" : "jstree-file",
+                  "a_attr" : { "href" : "files/digital/logo/digital_light.png" } 
+                },
+                {
+                  "text" : "digital_light.svg",
+                  "state" : { "selected" : false },
+                  "icon" : "jstree-file",
+                  "a_attr" : { "href" : "files/digital/logo/digital_light.svg" } 
+                },
+                {
+                  "text" : "photo_dark.png",
+                  "state" : { "selected" : false },
+                  "icon" : "jstree-file",
+                  "a_attr" : { "href" : "files/digital/logo/photo_dark.png" } 
+                },
+                {
+                  "text" : "photo_dark.svg",
+                  "state" : { "selected" : false },
+                  "icon" : "jstree-file",
+                  "a_attr" : { "href" : "files/digital/logo/photo_dark.svg" } 
+                },
+                {
+                  "text" : "photo_light.png",
+                  "state" : { "selected" : false },
+                  "icon" : "jstree-file",
+                  "a_attr" : { "href" : "files/digital/logo/photo_light.png" } 
+                },
+                {
+                  "text" : "photo_light.svg",
+                  "state" : { "selected" : false },
+                  "icon" : "jstree-file",
+                  "a_attr" : { "href" : "files/digital/logo/photo_light.svg" } 
+                },
+
+              ]
+						},
+            {
+							"text" : "back.png",
+							"state" : { "selected" : false },
+              "icon" : "jstree-file",
+              "a_attr" : { "href" : "files/digital/back.png" } 
+						},
+            {
+							"text" : "backsmall.png",
+							"state" : { "selected" : false },
+              "icon" : "jstree-file",
+              "a_attr" : { "href" : "files/digital/backsmall.png" } 
+						},
+					]
+				},
+        {
+					"text" : "design",
+          "icon" : "jstree-folder",
+					"state" : { "opened" : false },
+					"children" : [
+						{
+              "text" : "design_dark.png",
+              "state" : { "selected" : false },
+              "icon" : "jstree-file",
+              "a_attr" : { "href" : "files/design/design_dark.png" } 
+            },
+            {
+              "text" : "design_dark.svg",
+              "state" : { "selected" : false },
+              "icon" : "jstree-file",
+              "a_attr" : { "href" : "files/design/design_dark.svg" } 
+            },
+            {
+              "text" : "design_light.png",
+              "state" : { "selected" : false },
+              "icon" : "jstree-file",
+              "a_attr" : { "href" : "files/design/design_light.png" } 
+            },
+            {
+              "text" : "design_light.svg",
+              "state" : { "selected" : false },
+              "icon" : "jstree-file",
+              "a_attr" : { "href" : "files/designdesign_light.svg" } 
+            },
+            {
+							"text" : "kovylyaev-design.pdf",
+							"state" : { "selected" : false },
+              "icon" : "jstree-file",
+              "a_attr" : { "href" : "files/design/kovylyaev-design.pdf" } 
+						},
+            {
+							"text" : "recyclica.pdf",
+							"state" : { "selected" : false },
+              "icon" : "jstree-file",
+              "a_attr" : { "href" : "files/design/recyclica.pdf" } 
+						},
+            {
+							"text" : "recyclica.pptx",
+							"state" : { "selected" : false },
+              "icon" : "jstree-file",
+              "a_attr" : { "href" : "files/design/recyclica.pptx" } 
+						},
+            {
+							"text" : "Thumbnail-2.png",
+							"state" : { "selected" : false },
+              "icon" : "jstree-file",
+              "a_attr" : { "href" : "files/design/Thumbnail-2.png" } 
+						},
+					]
+				},
+        {
+					"text" : "asp.pptx",
+					"state" : { "selected" : false },
+          "icon" : "jstree-file",
+          "a_attr" : { "href" : "files/asp.pptx" } 
+				},
+			]
+		}
+	}).on('changed.jstree', function (e, data) {
+        var href = data.node.a_attr.href;
+        var parentId = data.node.a_attr.parent_id;
+        if(href == '#')
+        return '';
+        window.location.href = href;
+    });
+</script>
+</body>
+</html>
